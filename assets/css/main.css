@@ -1016,7 +1016,7 @@
     margin: 10px;
     overflow: hidden;
     display: block;
-    height: 3.6rem;
+    /* height: 3.6rem; */
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
