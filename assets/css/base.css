@@ -7,7 +7,7 @@
     --height-navbar: 38.18px;
     --expecsial-color: rgba(255, 226, 64, 0.94);
     --header-height: 120px;
-
+    --header__sort-bar: 42px;
     --header-with-search-height :calc(var(--header-height) - var(--height-navbar));
 }
 * {
@@ -21,14 +21,16 @@ html {
 }
 
 .title-of-website {
+    margin: 0;
     text-transform: uppercase;
     font-family:fantasy;
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
     transition: letter-spacing linear 3s;
     font-weight: 600;
     color:rgba(0, 198, 212, 0.94);
     position: relative;
+    top: 18px;
     animation: space linear 6s infinite 1s reverse;
 }
 
@@ -89,15 +91,6 @@ html {
     }
 }
 
-.grid {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.grid__full-width {
-    width: 100%;
-}
 
 .grid__row {
     display: flex;
@@ -117,18 +110,6 @@ html {
     display: flex;
 }
 
-
-.grid__column-2-4 {
-    width: 20%;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.grid__column-10 {
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 83.33333%;
-}
 
 @keyframes growth {
     from {
@@ -389,8 +370,8 @@ html {
 
 .pyro > .before, .pyro > .after {
     position: absolute;
-    width: 7px;
-    height: 7px;
+    width: 5px;
+    height: 5px;
     pointer-events: none;
     z-index: 99999999;
     border-radius: 50%;
